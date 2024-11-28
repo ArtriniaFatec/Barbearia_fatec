@@ -1,0 +1,28 @@
+#carouselExampleIndicators{
+    width: 70vw;
+    height: 30vh;
+}
+
+.carousel-control{
+    color: #fff;
+    width: .5;
+    opacity: .9;
+    transition: opacity .15 ease;
+}
+.carousel-indicator{
+    width: 30px;
+    height: 3px;
+    
+}
+.carousel-caption{
+    width: 70%;
+    color:white;
+    padding: 1.25rem;
+}
+.carousel-control-icon{
+
+}
+img{
+    width: 500px;
+    height: 250px;
+}
