@@ -1,0 +1,18 @@
+header{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    gap: 450px;
+    background-color: rgb(80, 80, 80);
+}
+
+nav{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    gap: 100px
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+}

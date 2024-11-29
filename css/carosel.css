@@ -23,6 +23,11 @@
 
 }
 img{
-    width: 500px;
-    height: 250px;
+    width: 600px;
+    height: 400px;
+}
+.carousel-inner{
+    display: flex;
+    justify-items: center;
+    align-items: center;
 }
