@@ -1,0 +1,19 @@
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.sobre{
+    height: 100vh;
+    width: 30vw;
+    background-color: black;
+    color: aliceblue;
+}
+.container-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}

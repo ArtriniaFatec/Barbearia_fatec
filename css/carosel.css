@@ -1,33 +1,27 @@
-#carouselExampleIndicators{
-    width: 70vw;
-    height: 30vh;
-}
+@import "../node_modules/bootstrap/scss/bootstrap";
 
-.carousel-control{
-    color: #fff;
-    width: .5;
-    opacity: .9;
-    transition: opacity .15 ease;
-}
-.carousel-indicator{
-    width: 30px;
-    height: 3px;
-    
-}
-.carousel-caption{
-    width: 70%;
-    color:white;
-    padding: 1.25rem;
-}
-.carousel-control-icon{
-
+.slide{
+    width: 30vw;
+    height: 50vh;
 }
 img{
-    width: 600px;
-    height: 400px;
+    width: 30vw;
+    height: 50vh;
 }
-.carousel-inner{
-    display: flex;
-    justify-items: center;
-    align-items: center;
+
+.d-md-block{
+    background-color: black;
+    opacity: .7;
+}
+
+.mudar{
+    background-color: black;
+    opacity: .7;
+}
+.tipos{
+    color: aliceblue;
+    height: 4vh;
+    width: 30vw;
+    background-color: rgb(24, 24, 24);
+    text-align: center;
 }

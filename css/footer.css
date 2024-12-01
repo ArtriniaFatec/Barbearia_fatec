@@ -1,0 +1,11 @@
+footer{
+    background-color: rgb(10, 10, 10);
+    width: 100vw;
+    height: 30vh;
+    color: aliceblue;
+}
+.contados{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
