@@ -1,122 +1,261 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" defer></script>
-    <link rel="stylesheet" href="/css/header.css">
-    <link rel="stylesheet" href="/css/index.css">
-    <link rel="stylesheet" href="/css/carosel.css">
-    <link rel="stylesheet" href="/css/main.css">
-    <link rel="stylesheet" href="/css/footer.css">
-    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" defer></script>
+  <link rel="stylesheet" href="/css/header.css">
+  <link rel="stylesheet" href="/css/index.css">
+  <link rel="stylesheet" href="/css/carosel.css">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/footer.css">
+  <link rel="stylesheet" href="/css/preco.css">
+  <link rel="stylesheet" href="/css/depoimentos.css">
+
 
 </head>
+
 <body>
-    
-    <Header>
-        <a href="#"><img class="logo" src="/image/logo.png" alt=""></a>
-        <nav>
-            <a href="#">Home</a>
-            <a href="#">Corte</a>
-            <a href="#">Historia</a>s
-        </nav>
-    </Header>
-    <main>
-        <div class="container-1">
-          <div class="sobre">
-            <h3>Sobre nossa Barbearia</h3>
-            <p>No coração de uma cidade pulsante, onde realidade e fantasia se cruzam, nasceu um lugar diferente de tudo o que já se viu: "Barbearia Gamer", uma barbearia criada especialmente para os gamers. Era mais do que um lugar para cortar cabelo ou fazer a barba; era um santuário para os heróis virtuais e seus fiéis escudeiros.</p>
-            <h5>O Ambiente</h5>
-            <p>Ao entrar, você era transportado para outro mundo. As paredes, decoradas com artes de jogos clássicos e modernos, brilhavam com luzes de LED coloridas que mudavam conforme o som ambiente. Havia espelhos que pareciam portais mágicos, cadeiras estilizadas como tronos de batalha, e consoles de última geração disponíveis em cada estação de corte.</p>
-            <p>No fundo do salão, uma tela gigante transmitia campeonatos de e-sports ao vivo, enquanto os clientes jogavam "Mario Kart" ou "Street Fighter" enquanto esperavam sua vez. E, claro, havia um "menu de estilos" inspirado em personagens icônicos: o "Corte Ezio" (um degradê afiado), a "Barba Kratos" (cheia e feroz) e o "Mohawk Cyberpunk" (um corte futurista com cores vibrantes).
-            </p>
-            <h5>Os Personagens</h5>
-            <p>O dono, conhecido apenas como Ragnar, era um ex-pro player de e-sports que decidiu criar a barbearia dos seus sonhos após pendurar o controle. Ragnar tinha uma aparência tão imponente quanto a de um NPC de um RPG clássico: barba longa, cabelo raspado nas laterais e tatuagens que pareciam runas mágicas.
-            </p>
-            <p>Seus barbeiros eram tão únicos quanto ele. Havia Miko, uma especialista em cortes com designs geométricos que mais pareciam pixel art; Luna, que fazia barbas com perfeição digna de um elfo das florestas, e Vlad, um fã de jogos de terror que dava aos clientes histórias assustadoras enquanto afiava suas lâminas.
-            </p>
-            <h5>A Experiência</h5>
-            <p>Na "Barbearia gamer", cortar o cabelo era uma jornada épica. Ao se sentar na cadeira, os clientes escolhiam um "nível de dificuldade" para o corte: Casual, Hardcore ou Lendário. O nível Lendário, por exemplo, incluía um corte, um design artístico na lateral da cabeça, e uma sessão de relaxamento com sons ambiente de florestas encantadas ou batalhas espaciais.</p>
 
-            <h5>A Comunidade</h5>
-            <p>
-              Enquanto o barbeiro trabalhava, o cliente podia continuar uma partida no console embutido no braço da cadeira. Se ganhasse, recebia um desconto. Se perdesse, ganhava um energético gratuito como "bônus de experiência".
-            </p>
-            <p>A barbearia rapidamente se tornou um ponto de encontro para gamers de todas as idades. Ragnar organizava torneios semanais com prêmios que iam desde periféricos de jogos até cortes gratuitos. A cada mês, havia eventos temáticos, como a "Noite de Battle Royale" ou a "Semana Retro", onde todo mundo se vestia como personagens de jogos antigos.</p>
-            <p>Mais do que um lugar para cuidados pessoais, a "Level Up" era um espaço onde amizades surgiam, clãs se formavam e histórias épicas eram compartilhadas.</p>
+  <Header>
+    <a href="#"><img class="logo" src="/image/logo.png" alt=""></a>
+    <nav>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown"
+        aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+              Opções
+            </button>
+            <ul class="dropdown-menu dropdown-menu-dark">
+              <li><a class="dropdown-item" href="#sobre">Sobre</a></li>
+              <li><a class="dropdown-item" href="#corte">Corte</a></li>
+              <li><a class="dropdown-item" href="#depoimento">depoimento</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
 
-            <h5>O Lema</h5>
+    </nav>
+  </Header>
+  <main>
+    <div class="container-1">
+      <div id="sobre" class="sobre">
+        <h3>Sobre nossa Barbearia</h3>
+        <p>No coração de uma cidade pulsante, onde realidade e fantasia se cruzam, nasceu um lugar diferente de tudo o
+          que já se viu: "Barbearia Gamer", uma barbearia criada especialmente para os gamers. Era mais do que um lugar
+          para cortar cabelo ou fazer a barba; era um santuário para os heróis virtuais e seus fiéis escudeiros.</p>
+        <h5>O Ambiente</h5>
+        <p>Ao entrar, você era transportado para outro mundo. As paredes, decoradas com artes de jogos clássicos e
+          modernos, brilhavam com luzes de LED coloridas que mudavam conforme o som ambiente. Havia espelhos que
+          pareciam portais mágicos, cadeiras estilizadas como tronos de batalha, e consoles de última geração
+          disponíveis em cada estação de corte.</p>
+        <p>No fundo do salão, uma tela gigante transmitia campeonatos de e-sports ao vivo, enquanto os clientes jogavam
+          "Mario Kart" ou "Street Fighter" enquanto esperavam sua vez. E, claro, havia um "menu de estilos" inspirado em
+          personagens icônicos: o "Corte Ezio" (um degradê afiado), a "Barba Kratos" (cheia e feroz) e o "Mohawk
+          Cyberpunk" (um corte futurista com cores vibrantes).
+        </p>
+        <h5>Os Personagens</h5>
+        <p>O dono, conhecido apenas como Ragnar, era um ex-pro player de e-sports que decidiu criar a barbearia dos seus
+          sonhos após pendurar o controle. Ragnar tinha uma aparência tão imponente quanto a de um NPC de um RPG
+          clássico: barba longa, cabelo raspado nas laterais e tatuagens que pareciam runas mágicas.
+        </p>
+        <p>Seus barbeiros eram tão únicos quanto ele. Havia Miko, uma especialista em cortes com designs geométricos que
+          mais pareciam pixel art; Luna, que fazia barbas com perfeição digna de um elfo das florestas, e Vlad, um fã de
+          jogos de terror que dava aos clientes histórias assustadoras enquanto afiava suas lâminas.
+        </p>
+        <h5>A Experiência</h5>
+        <p>Na "Barbearia gamer", cortar o cabelo era uma jornada épica. Ao se sentar na cadeira, os clientes escolhiam
+          um "nível de dificuldade" para o corte: Casual, Hardcore ou Lendário. O nível Lendário, por exemplo, incluía
+          um corte, um design artístico na lateral da cabeça, e uma sessão de relaxamento com sons ambiente de florestas
+          encantadas ou batalhas espaciais.</p>
 
-            <p>Na entrada da barbearia, uma placa dizia:</p>
-            <p>"Aqui, você não é apenas um cliente. Você é um herói se preparando para sua próxima batalha."</p>
-            <p>E assim, a "Level Up Barber Shop" se tornou uma lenda urbana entre os gamers, um lugar onde o mundo real e o virtual se uniam em perfeita harmonia. Afinal, todos sabiam: um herói só é tão bom quanto sua armadura — e no caso deles, isso começava com um bom corte de cabelo.</p> 
+        <h5>A Comunidade</h5>
+        <p>
+          Enquanto o barbeiro trabalhava, o cliente podia continuar uma partida no console embutido no braço da cadeira.
+          Se ganhasse, recebia um desconto. Se perdesse, ganhava um energético gratuito como "bônus de experiência".
+        </p>
+        <p>A barbearia rapidamente se tornou um ponto de encontro para gamers de todas as idades. Ragnar organizava
+          torneios semanais com prêmios que iam desde periféricos de jogos até cortes gratuitos. A cada mês, havia
+          eventos temáticos, como a "Noite de Battle Royale" ou a "Semana Retro", onde todo mundo se vestia como
+          personagens de jogos antigos.</p>
+        <p>Mais do que um lugar para cuidados pessoais, a "Level Up" era um espaço onde amizades surgiam, clãs se
+          formavam e histórias épicas eram compartilhadas.</p>
+
+        <h5>O Lema</h5>
+        <p>Na entrada da barbearia, uma placa dizia: "Aqui, você não é apenas um cliente. Você é um herói se preparando
+          para sua próxima batalha."</p>
+        <p>E assim, a "Barbearia Gamer" se tornou uma lenda urbana entre os gamers, um lugar onde o mundo real e o
+          virtual se uniam em perfeita harmonia. Afinal, todos sabiam: um herói só é tão bom quanto sua armadura — e no
+          caso deles, isso começava com um bom corte de cabelo.</p>
+      </div>
+      <div class="container-2">
+        <div class="carosel-boot">
+          <h3 class="tipos">Tipos de Cortes</h3>
+          <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="cardimg" src="/image/image_1.png" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Barbas Rusticas</h5>
+                  <p>Estilo e Naturalidade, em Harmonia.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="/image/image_2.webp" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Barbas Mordernas</h5>
+                  <p>Sempre na onda das Tendências.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="/image/image_3.jpg" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Barbas Formais</h5>
+                  <p>Para quem escolheu ser Elegante com sua barba.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev mudar" type="button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next mudar" type="button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
           </div>
-          <div class="carosel-boot">
-            <h3 class="tipos">Tipos de Cortes</h3>
-            <div id="carouselExampleIndicators" class="carousel slide">
-                <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                </div>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="/image/image_1.png" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                      <h5>Barbas Rusticas</h5>
-                      <p>Estilo e Naturalidade, em Harmonia.</p>
-                    </div>          
-                  </div>
-                  <div class="carousel-item">
-                    <img src="/image/image_2.webp" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                      <h5>Barbas Mordernas</h5>
-                      <p>Sempre na onda das Tendências.</p>
-                    </div>          
-                  </div>
-                  <div class="carousel-item">
-                    <img src="/image/image_3.jpg" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                      <h5>Barbas Formais</h5>
-                      <p>Para quem escolheu ser Elegante com sua barba.</p>
-                    </div>          
-                  </div>
-                </div>
-                <button class="carousel-control-prev mudar" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next mudar" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
+        </div>
+        <div id="corte" class="serviços">
+
+          <div class="barbarus">
+            <h3>Barbas Rusticas</h3>
+            <div class="acima">
+              <div class="fotocortes">
+                <img src="/image/rustica-1.jpg" alt="">
+                <div class="texto">R$ 35,00</div>
+              </div>
+              <div class="fotocortes">
+                <img src="/image/rustica-2.webp" alt="">
+                <div class="texto">R$ 45,00</div>
+              </div>
+            </div>
+          </div>
+          <div class="barbamorde">
+            <h3>Barbas Mordernas</h3>
+            <div class="acima">
+              <div class="fotocortes">
+                <img src="/image/moderna-1.jpg" alt="">
+                <div class="texto">R$ 25,00</div>
+              </div>
+              <div class="fotocortes">
+                <img src="/image/moderna-2.jpg" alt="">
+                <div class="texto">R$ 50,00</div>
+              </div>
+            </div>
+            <div class="baixo">
+              <div class="fotocortes">
+                <img src="/image/moderna-4.jpg" alt="">
+                <div class="texto">R$ 60,00</div>
+              </div>
+              <div class="fotocortes">
+                <img src="/image/moderna-3.jpg" alt="">
+                <div class="texto">R$ 40,00</div>
+              </div>
+            </div>
+          </div>
+          <div class="barbaform">
+            <h3>Barbas Formais</h3>
+            <div class="acima">
+              <div class="fotocortes">
+                <img src="/image/formal-2.jpg" alt="">
+                <div class="texto">R$ 55,00</div>
+              </div>
+              <div class="fotocortes">
+                <img src="/image/formal-1.webp" alt="">
+                <div class="texto">R$ 75,00</div>
+              </div>
             </div>
           </div>
         </div>
-    </main>
-    <footer>
-        <div class="contados">
-          <div class="locais">
-            <h4>Endereços </h4>
-            <p class="address">Rua das Flores, 123 - Jardim Primavera, São Paulo, SP</p>
-            <p class="address">Avenida Brasil, 456 - Centro, Rio de Janeiro, RJ</p>
-            <p class="address">Praça da Liberdade, 789 - Liberdade, Belo Horizonte, MG</p>
-            <p class="address">Rua do Sol, 101 - Boa Vista, Recife, PE</p>
-          </div>
-            <div class="administrativo">
-              <p>Telefone/Whatsap: 19 98888-8888</p>
-              <p>Email: barbeariadoferreiro@email.com</p>
-            </div>
-            <div class="redesociais">
-              <p>Instagram: <a href="#">@BarbeariadoFerreiro</a></p>
-              <p>X/twitter: <a href="#">@BarbeariadoFerreiro</a></p>
-            </div>
-
+      </div>
+    </div>
+    <div id="depoimento" class="depoimento">
+      <div class="fotocortes">
+        <img src="/image/depoimento.png" alt="">
+        <div class="texto">
+          <h5>Ryan Reynolds</h5>
+          <p>Ah, a barbearia... É como o santuário dos homens modernos, onde o mundo lá fora para e o foco é
+            exclusivamente em você – ou pelo menos no seu cabelo e barba. E eu preciso dizer: essa barbearia em
+            particular? Absolutamente fenomenal.</p>
         </div>
+      </div>
+      <div class="fotocortes">
+        <img src="/image/depoimentos.jpg" alt="">
+        <div class="texto">
+          <h5>Jack Black</h5>
+          <p> Amigos, deixa eu falar pra vocês: essa barbearia é tipo um cheat code da vida real! Você entra parecendo
+            um NPC qualquer e sai parecendo o protagonista de um RPG lendário. Eles têm cadeiras que parecem saídas
+            direto de um cockpit de MechWarrior e uma vibe que mistura LAN house e templo sagrado dos cortes.
 
-    </footer>
+            Enquanto minha barba era esculpida no estilo 'Barba Kratos', eu estava destruindo adversários no Mario Kart.
+            É a experiência gamer definitiva, cara. Se você curte jogos e quer parecer um herói de verdade, essa
+            barbearia é o seu respawn estiloso!</p>
+        </div>
+      </div>
+      <div class="fotocortes">
+        <img src="/image/depoimentos.webp" alt="">
+        <div class="texto">
+          <h5>Jim Carrey</h5>
+          <p>Entrar nessa barbearia foi como entrar num filme dirigido por Deus – e, spoiler, Ele sabe cortar cabelo! O
+            ambiente é incrível, cheio de energia, e os barbeiros? Verdadeiros artistas com tesouras.
+
+            Saí de lá sentindo que poderia interpretar qualquer personagem – desde um executivo de Wall Street até o
+            Máskara! Minha barba? Uma obra-prima.
+
+            Se você não foi ainda, o que está esperando? Sua cara merece esse luxo!</p>
+        </div>
+      </div>
+    </div>
+    </div>
+  </main>
+  <footer>
+    <div class="contados">
+      <div class="locais">
+        <h4>Endereços </h4>
+        <p class="address">Rua das Flores, 123 - Jardim Primavera, São Paulo, SP</p>
+        <p class="address">Avenida Brasil, 456 - Centro, Rio de Janeiro, RJ</p>
+        <p class="address">Praça da Liberdade, 789 - Liberdade, Belo Horizonte, MG</p>
+        <p class="address">Rua do Sol, 101 - Boa Vista, Recife, PE</p>
+      </div>
+      <div class="administrativo">
+        <p>Telefone/Whatsap: 19 98888-8888</p>
+        <p>Email: barbeariadoferreiro@email.com</p>
+      </div>
+      <div class="redesociais">
+        <p>Instagram: <a href="#">@BarbeariadoFerreiro</a></p>
+        <p>X/twitter: <a href="#">@BarbeariadoFerreiro</a></p>
+      </div>
+
+    </div>
+
+  </footer>
 </body>
+
 </html>

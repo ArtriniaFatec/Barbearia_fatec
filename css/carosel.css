@@ -3,10 +3,18 @@
 .slide{
     width: 30vw;
     height: 50vh;
+    min-width: 400px;
+    min-height: 400px;
 }
 img{
     width: 30vw;
     height: 50vh;
+    
+    
+}
+.cardimg{
+    min-width: 400px;
+    min-height: 400px;
 }
 
 .d-md-block{
@@ -22,6 +30,7 @@ img{
     color: aliceblue;
     height: 4vh;
     width: 30vw;
-    background-color: rgb(24, 24, 24);
     text-align: center;
+    white-space: nowrap;
+
 }

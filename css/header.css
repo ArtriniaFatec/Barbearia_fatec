@@ -19,6 +19,17 @@ a{
     text-decoration: none;
 }
 .logo{
-    width: 150px;
-    height: 150px;
+    width: 140px;
+    height: 140px;
+}
+.navbar-toggler{
+    color: aliceblue;
+    border: .1 solid;
+    background-color: rgb(56, 56, 56);
+    border-radius: 10px;
+    padding: 10px;
+}
+.navbar-toggler:hover{
+    background-color: aliceblue;
+    color: rgb(0, 0, 0);
 }

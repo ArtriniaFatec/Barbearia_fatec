@@ -1,0 +1,22 @@
+.depoimento .fotocortes{
+    width: 30vw;
+    height: 45vh;
+    min-width: 400px;
+    min-height: 400px;
+}
+
+.depoimento{
+    background-color: rgb(39, 39, 39);
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.depoimento .fotocortes .texto{
+    display: flex;
+    flex-direction: column;
+    min-width: 400px;
+    min-height: 400px;
+    width: 30vw;
+    height: 45vh;
+}
